@@ -1,0 +1,21 @@
+{
+  "name": "react-agents",
+  "displayName": "React Agents",
+  "version": "1.0.0",
+  "description": "4 subagents with model routing (haiku/sonnet) for React, TypeScript and Vite: implementation, tests, review, test runs, plus React conventions and a frontend security checklist",
+  "author": {
+    "name": "Patrick Helbing"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "frontend",
+    "conventions",
+    "subagents"
+  ],
+  "dependencies": [
+    "developer-workflow-agents@developer-workflow-agents"
+  ]
+}

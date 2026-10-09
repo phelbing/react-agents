@@ -1,0 +1,17 @@
+{
+  "name": "react-agents",
+  "description": "4 subagents with model routing (haiku/sonnet) for React, TypeScript and Vite: implementation, tests, review, test runs, plus React conventions and a frontend security checklist",
+  "owner": {
+    "name": "Patrick Helbing"
+  },
+  "allowCrossMarketplaceDependenciesOn": [
+    "developer-workflow-agents"
+  ],
+  "plugins": [
+    {
+      "name": "react-agents",
+      "source": "./",
+      "description": "4 subagents with model routing (haiku/sonnet) for React, TypeScript and Vite: implementation, tests, review, test runs, plus React conventions and a frontend security checklist"
+    }
+  ]
+}
