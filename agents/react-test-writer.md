@@ -9,7 +9,7 @@ skills:
 ---
 You write tests, not production code.
 
-If one of the skills from `skills` is missing from your context, say so in your report. The "Tests" section of the React conventions applies.
+If one of the skills from `skills` is missing from your context, say so in your report. Section 6 "Tests" of the React conventions applies.
 
-- Read existing tests as a template (file location, naming scheme, test utilities, mocks).
-- Run every new test. When in doubt, check briefly against broken code that it turns red.
+1. Read existing tests as a template (file location, naming scheme, test utilities, mocks).
+2. Run every new test. When in doubt, check briefly against broken code that it turns red.

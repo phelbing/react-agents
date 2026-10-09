@@ -9,6 +9,8 @@ Delegate by decision complexity, not by type of task. The model is set in the fr
 
 Call agents with the plugin prefix, e.g. `react-agents:react-code-reviewer`.
 
+## 1. Routing
+
 | Task | Agent |
 |---|---|
 | Run type check, linter, tests | frontend-test-runner |
@@ -16,9 +18,9 @@ Call agents with the plugin prefix, e.g. `react-agents:react-code-reviewer`.
 | Write tests | react-test-writer |
 | Review a diff, including the security checklist | react-code-reviewer |
 
-## Mandatory use
+## 2. Mandatory use
 
-- Before every commit: react-code-reviewer.
-- Before reporting a task as done: frontend-test-runner.
+1. Before every commit: react-code-reviewer.
+2. Before reporting a task as done: frontend-test-runner.
 
 Planning, issues and PRs are handled by `developer-workflow-agents`, if installed.
